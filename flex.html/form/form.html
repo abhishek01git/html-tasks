@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+    <style>
+        textarea{
+            vertical-align: middle;
+        }
+        div{
+        margin: auto;
+        background-color: cadetblue;
+        width: 600px;
+        height: 700px;
+        margin-top: 100px;
+        padding-left: 20px;
+       
+        padding: 15px;
+        border-radius: 2rem;
+        }
+        input{
+            align-content: center;
+        }
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        button{
+            margin-left: 200px;
+          border-radius: 10rem;
+          background-color: black;
+          color:white;
+          border: none;
+          height: 20pxpx;
+          width: 70px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Register Here  </h2>
+        <form>
+            <label>Enter Your Name </label> 
+            <input type="text" required><br><br>
+            <label >Enter Your Mobile</label>
+            <input type="number" required><br><br>
+            <label >Enter Your DOB</label>
+            <input type="date" required
+            ><br><br>
+            <label >Enter Your Address </label>
+            <textarea  cols="20" rows="5" required></textarea><br><br>
+            <label >Enter Your Gender</label>
+            <input type="radio" required  name="Male" >
+            <label >Male</label>
+            <input type="radio"  name="Male" required >
+           <label >Female</label>
+           <input type="radio"  name="Male" required>
+           <label >Others</label><br>
+           <br>
+           <label >Enter Qulification</label>
+           <input type="checkbox"   >
+          <label > SSLC</label>
+          <input type="checkbox"  >
+         <label > PLUSTWO</label>
+         <input type="checkbox"  >
+         <label > Degree</label>
+         <br><br>
+
+         <label >Enter Districts</label>
+         <select >
+            <option >select Districts </option> 
+            <option >Thiruvananthapuram</option>
+            <option >Kollam</option>
+            <option >Kozhikode</option>
+            <option >Alappuzha</option>
+            <option >Ernakulam</option>
+            <option >Ernakulam</option>
+          </select><br><br>
+          <label>Enter Your Email</label>
+          <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+          <label for="">Password</label>
+          <input type="password" name="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8">
+          <br><br>
+          <label for="">Select Photo</label>
+          <input type="file" name="" id="">
+          <br><br>
+          <button >  Submit</button>
+        
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table {
+            /* width: 50%; */
+            margin: auto;
+           /* // border-collapse: collapse; */
+        }
+
+        th, td {
+            /* padding: 10px; */
+            /* text-align: left; */
+            /* border-bottom: 1px solid #ddd; */
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td><label for="full-name">Full Name:</label></td>
+                <td><input type="text" id="full-name" name="full_name" placeholder="First Name Last Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="address" name="address" placeholder="Street Address" maxlength="25" required></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile:</label></td>
+                <td><input type="tel" id="mobile" name="mobile" placeholder="Mobile" pattern="[0-9]{10}" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="E-mail" required></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="india">India</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="skill-level">Skill Level:</label></td>
+                <td>
+                    <select id="skill-level" name="skill_level" required>
+                        <option value="undergraduate">Undergraduate</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="postgraduate">Post-graduate</option>
+                        <option value="diploma">Diploma/Technical</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+h1{
+    color: greenyellow;
+}
+p{
+    size: 20px;
+    color: red;
+}
+#lol{
+    font-style: italic;
+    color: green;
+    background: blue;
+}
+.demo{
+    color: violet;
+    font-size: 80px;
+}
+h1,p{
+    color: indigo;
+    font-size: 50px;
+    background: gray;
+}
+*{
+    margin-top: 50px;
+}

@@ -1,0 +1,231 @@
+nav{
+    width: 50%;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px black;
+    z-index: 10;
+}
+
+ul{
+    float: right;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+font-size: 20px;
+
+}
+li{
+    list-style-type: none;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    position: absolute;
+    top: 6px;
+    left: 30px;
+}
+.search{
+    position: absolute;
+    top: 30px;
+    left: 88%;
+}
+.cart{
+    position: absolute;
+    top: 30px;
+    left: 91%;
+
+}
+.account{
+    position: absolute;
+    top: 30px;
+    left: 94%;
+ 
+}
+
+
+.body img {
+    max-width: 100%; 
+    height: auto;    
+    display: block; 
+    margin: 0 auto;  
+}
+
+.text{
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    font-size: 20px;
+}
+.imgO{
+    
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    left: 50px;
+    top:850px ;
+}
+.img2{
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.img3{
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.img4{
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+.img5{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+.img6{
+    position: absolute;
+    top: 75%;
+    left: 60%
+}
+.img7{
+    position: absolute;
+    top: 150%;
+    left: 0;
+}
+
+.img1 p{
+    position: absolute;
+    top: 300px;
+    left: 140px;
+  
+}
+.img2 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}
+.img3 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}
+.img4 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}.img5 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}.img6 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}
+.img7 p{
+    position: absolute;
+    top: 300px;
+    left: 160px;
+  
+}
+#full{
+    position: absolute;
+    top: 295%;
+    
+}
+.foot{
+    width: 110%;
+    height: 250px;
+    background-color: #000;
+    position: absolute;
+    top: 329%;
+    left: 10px;
+
+}
+#sim{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.foottext{
+    color: rgba(244, 188, 4, 0.963);
+    position: absolute;
+    top: 333%;
+    left: 430px;
+    font-weight: bold;
+}
+.texttwo{
+    color: rgba(244, 188, 4, 0.963);
+    position: absolute;
+    top: 333%;
+    left: 650px;
+    font-weight: bold;
+}
+.textthree{
+    color: rgba(244, 188, 4, 0.963);
+    position: absolute;
+    top: 333%;
+    left: 850px;
+    font-weight: bold;
+}
+.textfour{
+    color: rgba(244, 188, 4, 0.963);
+    position: absolute;
+    top: 333%;
+    left: 1065px;
+    font-weight: bold;
+}
+#fb{
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+#in{
+    position: absolute;
+    left: 50px;
+    top: 120px;  
+}
+#pin{
+    position: absolute;
+    left: 100px;
+    top: 120px;  
+}
+.finalimg{
+    position: absolute;
+    top: 337%;
+    left: 1250px; 
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px black;
+    z-index: 10;
+}
+
+
+
+.body,
+.imgO,
+.contain {
+    width: 100%;
+}
+
+
